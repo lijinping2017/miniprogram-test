@@ -1,0 +1,49 @@
+/* pages/list/list.wxss */
+/* 可滚动视图 */
+.container1 {
+  border: 1px solid red;
+  width: 100rpx;
+  height: 120rpx;
+}
+
+.container1 view {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.container1 view:nth-child(1) {
+  background-color: lightcoral;
+}
+
+.container1 view:nth-child(2) {
+  background-color: lightblue;
+}
+
+.container1 view:nth-child(3) {
+  background-color: lightgreen;
+}
+
+/* 轮播图 */
+.swiper-container {
+  height: 300rpx;
+}
+
+.item {
+  height: 100%;
+  text-align: center;
+  line-height: 300rpx;
+}
+
+swiper-item:nth-child(1) {
+  background-color: lightblue;
+}
+
+swiper-item:nth-child(2) {
+  background-color: lightcoral;
+}
+
+swiper-item:nth-child(3) {
+  background-color: lightgreen;
+}
